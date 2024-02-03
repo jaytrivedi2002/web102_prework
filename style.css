@@ -21,6 +21,13 @@ body {
 
 .stats-container {
     display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #000000;
+    cursor: pointer;
+}
+.stats-container:hover{
+    box-shadow: 0 0 30px lightblue;
 }
 
 .stats-card {
@@ -68,8 +75,14 @@ body {
 
 button {
     font-family: 'Cabin';
+    cursor: pointer;
+    box-shadow: 0 0 30px rgb(65, 114, 130);
     border: none;
     padding: 1%;
     margin: 1%;
     border-radius: 7px;
+}
+
+.centerFormat {
+    text-align: center;
 }
